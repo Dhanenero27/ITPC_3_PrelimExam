@@ -4,28 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>PrelimExam</title>
-
+    <style>
+        #div1 {
+            text-align: center;
+        }
+        .redText {
+            color:rgba(233, 37, 151, 0.397);
+            background-color: rgb(255, 255, 255);
+            border-color: rgb(24, 24, 19);
+        }
+        /*input {
+            text-align: right;
+        }*/
+        .redText:hover {
+            color:rgb(7, 7, 7);
+            
+        }
+        #btnLogin {
+            background-color: rgba(255, 191, 234, 0.637);
+        }
+        #btnLogin:hover{
+            font-size: large;
+            cursor:pointer;
+            font-size: x-large;
+        }
+        #btnLogin{
+            background-color: rgb(40, 48, 43);
+        }
+        #btnReg:hover{
+               font-size:large;
+               cursor:pointer;
+               font-size:x-large;
+        }
+        
 
     </style>
 </head>
-<body > <center>
-          <h1 >Log In</h1>
-        <div >
-            <div >
-        <Input type="text" placeholder="Username">
+<body style="background-color: rgba(255, 251, 216, 0.527);">
+          <h1 style="text-align: center">Log In</h1>
+        <div style="text-align: center" id="div1">
+            <div style="margin-bottom: 1rem;">
+        <Input type="text" placeholder="Username" class="redText">
+        </div>
+        <div style="text-align: center">
+            <div style="margin-bottom: 1rem;">
+        <Input type="password" placeholder="Password" class="redText">
         </div>
         <div>
-            <div >
-        <Input type="password" placeholder="Password">
-        </div>
-        <div>
-            <button> LogIn </button>
-              
-            <button >Register</button></a>
-
-            
+            <button style="color:white" id="btnLogin">
+                
+                LogIn </button>
+          
 
         </div>
-    </center>
-</body>
+ 
 </html>
